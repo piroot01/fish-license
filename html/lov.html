@@ -1,0 +1,1293 @@
+<html class=" srjvxci idc0_350"><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+
+<script language="JavaScript">
+
+function browserLink(newObj) {
+  var i = newObj.indexOf("_");
+  var obj_name = newObj.substr(0, i);
+  newObj = newObj.substr(i + 1, newObj.length - 1);
+  var i = newObj.indexOf("_");
+  var obj_otazka = newObj.substr(0, i);
+  var obj_odpoved = newObj.substr(i + 1, newObj.length - 1);
+
+  var obj = document.getElementById(obj_name);
+
+  if (obj_odpoved == "spravna") {
+    obj.src = '/pages_cz/testrz/dobre.gif';
+  } else {
+    obj.src = '/pages_cz/testrz/spatne.gif';
+  }
+  obj.style.visibility = 'visible';
+  
+  var span_name = obj_name + "_a";
+  var span = document.getElementById(span_name);
+  if (obj_otazka == "a") {
+    span.style.backgroundColor = 'yellow';
+  } else {
+    span.style.backgroundColor = 'white';
+  }
+
+  var span_name = obj_name + "_b";
+  var span = document.getElementById(span_name);
+  if (obj_otazka == "b") {
+    span.style.backgroundColor = 'yellow';
+  } else {
+    span.style.backgroundColor = 'white';
+  }
+
+  var span_name = obj_name + "_c";
+  var span = document.getElementById(span_name);
+  if (obj_otazka == "c") {
+    span.style.backgroundColor = 'yellow';
+  } else {
+    span.style.backgroundColor = 'white';
+  }
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<table border="0" width="660">
+  <tbody><tr>
+    <td>
+      <table>
+        <tbody><tr>
+          <td style="vertical-align:top"><font size="+1"><b>3.</b></font></td>
+          <td style="vertical-align:top"><font size="+1"><b>Základní znalosti způsobů lovu ryb</b></font></td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td><br></td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac1.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>1.</b></td>
+                <td style="vertical-align:top"><b>Lov na položenou je:</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('1_a_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="1_a">lov při kterém se použijí nejvýše 2 udice a pohyb nástrahy není aktivně ovliňován</span></td>
+                    </tr>
+                    <tr onclick="browserLink('1_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="1_b">lov na jednoháčkovou mušku</span></td>
+                    </tr>
+                    <tr onclick="browserLink('1_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="1_c">lov při kterém se použijí nejvýše 2 udice a pohyb nástrahy je aktivně ovlivňován</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="1" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>2.</b></td>
+                <td style="vertical-align:top"><b>Lov přívlačí je:</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('2_a_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="2_a">lov při kterém je nástraha aktivně vedena vodním prostředím</span></td>
+                    </tr>
+                    <tr onclick="browserLink('2_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="2_b">lov muškařením</span></td>
+                    </tr>
+                    <tr onclick="browserLink('2_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="2_c">lov při kterém se použijí nejvýše 2 udice a pohyb nástrahy není aktivně ovliňován</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="2" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>3.</b></td>
+                <td style="vertical-align:top"><b>Lov čeřínkováním je:</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('3_a_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="3_a">lov  vodorovnou síti o maximální ploše 1&nbsp;m<sup>2</sup></span></td>
+                    </tr>
+                    <tr onclick="browserLink('3_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="3_b">lov muškařením</span></td>
+                    </tr>
+                    <tr onclick="browserLink('3_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="3_c">lov 
+při kterém se použijí nejvýše 2 udice s nástrahou, která může být 
+v&nbsp;pohybu nebo i v&nbsp;klidu nastavena v&nbsp;libovolné výšce 
+vodního sloupce</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="3" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>4.</b></td>
+                <td style="vertical-align:top"><b>Co je to lov na plavanou?</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('4_a_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="4_a">lov při kterém se použijí nejvýše 2 udice a pohyb nástrahy může být aktivně ovliňován</span></td>
+                    </tr>
+                    <tr onclick="browserLink('4_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="4_b">lov ryb z&nbsp;plavidla</span></td>
+                    </tr>
+                    <tr onclick="browserLink('4_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="4_c">lov nástražných rybek vodorovnou síti o maximální ploše 1&nbsp;m<sup>2</sup></span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="4" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>5.</b></td>
+                <td style="vertical-align:top"><b>Mezi povolené technické prostředky k&nbsp;lovu nepatří:</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('5_a_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="5_a">vybušniny</span></td>
+                    </tr>
+                    <tr onclick="browserLink('5_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="5_b">echolot</span></td>
+                    </tr>
+                    <tr onclick="browserLink('5_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="5_c">čeřínek</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="5" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>6.</b></td>
+                <td style="vertical-align:top"><b>Mezi povolené technické prostředky k&nbsp;lovu patří:</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('6_a_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="6_a">výbušniny</span></td>
+                    </tr>
+                    <tr onclick="browserLink('6_b_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="6_b">čeřínek</span></td>
+                    </tr>
+                    <tr onclick="browserLink('6_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="6_c">harpuna</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="6" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>7.</b></td>
+                <td style="vertical-align:top"><b>Co se rozumí pod pojmem hlubinná přívlač?</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('7_a_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="7_a">tažení nástrahy za pohybujícím se plavidlem</span></td>
+                    </tr>
+                    <tr onclick="browserLink('7_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="7_b">lov na moři</span></td>
+                    </tr>
+                    <tr onclick="browserLink('7_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="7_c">lov udicí ze břehu při kterém je nástraha aktivně vedena vodním prostředím</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="7" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>8.</b></td>
+                <td style="vertical-align:top"><b>Jak se měří délka ryb?</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('8_a_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="8_a">od hlavy k vykrojení ocasní ploutve</span></td>
+                    </tr>
+                    <tr onclick="browserLink('8_b_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="8_b">od vrcholu rypce po konec nejdelších paprsků ocasní ploutve</span></td>
+                    </tr>
+                    <tr onclick="browserLink('8_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="8_c">od žaberního oblouku k nejzazšímu konci ocasní ploutve</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="8" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>9.</b></td>
+                <td style="vertical-align:top"><b>V jaké minimální vzdálenosti od sebe musí být rybáři při lovu na položenou?</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('9_a_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="9_a">3&nbsp;m</span></td>
+                    </tr>
+                    <tr onclick="browserLink('9_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="9_b">5&nbsp;m</span></td>
+                    </tr>
+                    <tr onclick="browserLink('9_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="9_c">8&nbsp;m</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="9" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>10.</b></td>
+                <td style="vertical-align:top"><b>K lovu na plavanou nebo položenou v&nbsp;pstruhových rybářských revírech lze použít výhradně nástrahy:</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('10_a_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="10_a">rostlinného původu</span></td>
+                    </tr>
+                    <tr onclick="browserLink('10_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="10_b">umělé nebo rostlinného původu</span></td>
+                    </tr>
+                    <tr onclick="browserLink('10_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="10_c">rostlinného nebo živočišného původu</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="10" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>11.</b></td>
+                <td style="vertical-align:top"><b>Při lovu přívlačí nebo muškařením</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('11_a_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="11_a">smí lovící použít vždy jen 1 udici, která je při lovu držena v ruce; jiná udice není nastražena</span></td>
+                    </tr>
+                    <tr onclick="browserLink('11_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="11_b">smí lovící použít 1 udici, kterou musí držet v&nbsp;ruce a další smí mít nahozenou</span></td>
+                    </tr>
+                    <tr onclick="browserLink('11_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="11_c">smí lovící použít 1 udici a smí zároveň také čeřínkovat</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="11" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>12.</b></td>
+                <td style="vertical-align:top"><b>Musí mít osoba provádějící lov u sebe vyprošťovač háčků?</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('12_a_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="12_a">ne</span></td>
+                    </tr>
+                    <tr onclick="browserLink('12_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="12_b">pouze na údolních nádržích</span></td>
+                    </tr>
+                    <tr onclick="browserLink('12_c_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="12_c">ano</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="12" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>13.</b></td>
+                <td style="vertical-align:top"><b>Co učiníš s jelcem tlouštěm, který byl uloven na pstruhovém revíru a má háček zaseknutý hluboko v&nbsp;jícnu?</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('13_a_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="13_a">ustřihnu vlasec a vrátím jej zpět do vody</span></td>
+                    </tr>
+                    <tr onclick="browserLink('13_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="13_b">pokud má zákonnou míru, ponechám si jej</span></td>
+                    </tr>
+                    <tr onclick="browserLink('13_c_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="13_c">musím si ho vzít</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="13" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>14.</b></td>
+                <td style="vertical-align:top"><b>Co je to návnada?</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('14_a_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="14_a">přirozená potrava, kterou dopravujeme do vody a lákáme jí ryby k místu, kde lovíme</span></td>
+                    </tr>
+                    <tr onclick="browserLink('14_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="14_b">přirozená potrava nebo její napodobenina, opatřená jedním nebo více háčky, určená k lovu ryb</span></td>
+                    </tr>
+                    <tr onclick="browserLink('14_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="14_c">přirozená potrava, kterou si ryba sama v revíru uloví</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="14" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>15.</b></td>
+                <td style="vertical-align:top"><b>Co je to nástraha?</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('15_a_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="15_a">přirozená potrava, kterou dopravujeme do vody a lákáme jí ryby k místu, kde lovíme</span></td>
+                    </tr>
+                    <tr onclick="browserLink('15_b_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="15_b">přirozená potrava nebo její napodobenina, opatřená jedním nebo více háčky, určená k lovu ryb</span></td>
+                    </tr>
+                    <tr onclick="browserLink('15_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="15_c">přirozená potrava, kterou si ryba sama v revíru uloví</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="15" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>16.</b></td>
+                <td style="vertical-align:top"><b>Kolik jednoduchých háčků může mít rybář na jedné udici při lovu ryb na položenou na těsto?</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('16_a_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="16_a">1</span></td>
+                    </tr>
+                    <tr onclick="browserLink('16_b_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="16_b">2</span></td>
+                    </tr>
+                    <tr onclick="browserLink('16_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="16_c">neomezeně</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="16" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>17.</b></td>
+                <td style="vertical-align:top"><b>Jakou maximální velikost může mít čeřínek?</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('17_a_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="17_a">neomezeně velký</span></td>
+                    </tr>
+                    <tr onclick="browserLink('17_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="17_b">150 x 100 cm</span></td>
+                    </tr>
+                    <tr onclick="browserLink('17_c_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="17_c">100 x 100 cm</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="17" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>18.</b></td>
+                <td style="vertical-align:top"><b>Co musí mít u sebe osoba provádějící lov ryb?</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('18_a_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="18_a">vyprošťovač háčků a míru pro zjištění délky ryb</span></td>
+                    </tr>
+                    <tr onclick="browserLink('18_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="18_b">rybářskou loďku a přístřešek</span></td>
+                    </tr>
+                    <tr onclick="browserLink('18_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="18_c">stojan na udice</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="18" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>19.</b></td>
+                <td style="vertical-align:top"><b>Osoba provádějící lov je při lovu na položenou nebo při lovu na plavanou oprávněna použít v rybářských revírech mimopstruhových:</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('19_a_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="19_a">nejvýše 2 udice, u každé z nich nejvýše 3 návazce s jednoduchými háčky nebo 1 návazec s dvojháčkem nebo trojháčkem</span></td>
+                    </tr>
+                    <tr onclick="browserLink('19_b_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="19_b">nejvýše 2 udice, u každé z nich nejvýše 2 návazce s jednoduchými háčky nebo 1 návazec s dvojháčkem nebo trojháčkem</span></td>
+                    </tr>
+                    <tr onclick="browserLink('19_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="19_c">nejvýše 2 udice, u každé z nich nejvýše 2 návazce s jednoduchými háčky, dvojháčky nebo trojháčky</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="19" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>20.</b></td>
+                <td style="vertical-align:top"><b>Při lovu přívlačí v&nbsp;rybářských revírech pstruhových je povoleno do 31. 8. používat umělé nástrahy opatřené nejvýše:</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('20_a_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="20_a">třemi jednoháčky, dvojháčky nebo trojháčky</span></td>
+                    </tr>
+                    <tr onclick="browserLink('20_b_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="20_b">jedním jednoháčkem, dvojháčkem nebo trojháčkem</span></td>
+                    </tr>
+                    <tr onclick="browserLink('20_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="20_c">dvěma jednoháčky, dvojháčky nebo trojháčky</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="20" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>21.</b></td>
+                <td style="vertical-align:top"><b>Vyhrazování míst k&nbsp;lovu ryb je:</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('21_a_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="21_a">zakázáno</span></td>
+                    </tr>
+                    <tr onclick="browserLink('21_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="21_b">zakázáno u revírů o výměře do 2 ha</span></td>
+                    </tr>
+                    <tr onclick="browserLink('21_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="21_c">povoleno, ale pouze se souhlasem uživatele revíru</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="21" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>22.</b></td>
+                <td style="vertical-align:top"><b>Při lovu na plavanou nebo položenou v rybářských revírech&nbsp;pstruhových smí lovící používat nejvýše:</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('22_a_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="22_a">2 udice, u každé z nich nejvýše dva návazce s jednoduchými háčky, dvojháčky nebo trojháčky</span></td>
+                    </tr>
+                    <tr onclick="browserLink('22_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="22_b">2 udice, u každé z nich nejvýše jeden návazec s jednoduchým háčkem</span></td>
+                    </tr>
+                    <tr onclick="browserLink('22_c_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="22_c">2 udice, u každé z nich nejvýše dva návazce s jednoduchými háčky</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="22" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>23.</b></td>
+                <td style="vertical-align:top"><b>Při lovu muškařením v&nbsp;rybářských revírech pstruhových smí být použita jen jedna udice s&nbsp;nejvýše:</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('23_a_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="23_a">třemi návazci s tím, že na každém návazci lze použit jen jeden jednoháček nebo dvojháček</span></td>
+                    </tr>
+                    <tr onclick="browserLink('23_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="23_b">jedním návazcem a jedním jednoháčkem</span></td>
+                    </tr>
+                    <tr onclick="browserLink('23_c_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="23_c">třemi návazci s tím, že na každém návazci lze použít jen jeden jednoháček</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="23" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>24.</b></td>
+                <td style="vertical-align:top"><b>Při lovu přívlačí nebo muškařením musí osoby provádějící lov dodržovat mezi sebou vzdálenost:</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('24_a_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="24_a">alespoň 15&nbsp;m, nedohodnou-li se na menší vzdálenosti</span></td>
+                    </tr>
+                    <tr onclick="browserLink('24_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="24_b">při které se nebudou při lovu vzájemně omezovat</span></td>
+                    </tr>
+                    <tr onclick="browserLink('24_c_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="24_c">alespoň 20&nbsp;m, nedohodnou-li se na menší vzdálenosti</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="24" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>25.</b></td>
+                <td style="vertical-align:top"><b>Kdy je v&nbsp;pstruhových rybářských revírech povolen lov přívlačí?</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('25_a_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="25_a">od 16.&nbsp;dubna do 31.&nbsp;srpna</span></td>
+                    </tr>
+                    <tr onclick="browserLink('25_b_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="25_b">od 16.&nbsp;dubna do 30.&nbsp;listopadu</span></td>
+                    </tr>
+                    <tr onclick="browserLink('25_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="25_c">od 16.&nbsp;června do 31.&nbsp;srpna</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="25" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>26.</b></td>
+                <td style="vertical-align:top"><b>Kdy je v&nbsp;pstruhových rybářských revírech povolen lov muškařením?</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('26_a_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="26_a">od 16.&nbsp;dubna do 30.&nbsp;listopadu</span></td>
+                    </tr>
+                    <tr onclick="browserLink('26_b_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="26_b">od 16.&nbsp;dubna do 31.&nbsp;srpna</span></td>
+                    </tr>
+                    <tr onclick="browserLink('26_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="26_c">od 16.&nbsp;března do 30.&nbsp;listopadu</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="26" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td background="lov_files/oddelovac2.gif" height="3"></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0">
+        <tbody><tr>
+          <td style="vertical-align:top">
+            <table border="0">
+              <tbody><tr>
+                <td style="vertical-align:top"><b>27.</b></td>
+                <td style="vertical-align:top"><b>Při lovu přívlačí 
+v&nbsp;rybářských revírech pstruhových je povoleno v období od 1. 9. do 
+30. 11. používat umělé nástrahy opatřené nejvýše:</b></td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+                <td style="vertical-align:top">
+                  <table>
+                    <tbody><tr onclick="browserLink('27_a_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">a)</td>
+                      <td style="vertical-align:top"><span id="27_a">třemi jednoháčky, dvojháčky nebo trojháčky</span></td>
+                    </tr>
+                    <tr onclick="browserLink('27_b_spravna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">b)</td>
+                      <td style="vertical-align:top"><span id="27_b">jedním jednoháčkem</span></td>
+                    </tr>
+                    <tr onclick="browserLink('27_c_spatna'); return true;" style="cursor:pointer;cursor:hand">
+                      <td style="vertical-align:top">c)</td>
+                      <td style="vertical-align:top"><span id="27_c">dvěma jednoháčky, dvojháčky nebo trojháčky</span></td>
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+          <td>
+          </td>
+          <td>
+            <img id="27" style="visibility:hidden" width="50" height="50">
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+</tbody></table>
+
+
+
+</body></html>
